@@ -116,7 +116,7 @@
         draw(input.value, Math.min(24, size));
     });
 
-    draw = function(string, size) {
+    function draw(string, size) {
         context.clearRect(0, 0, canvas.width, canvas.height);
 
         string.split('').forEach((char, pos) => {
